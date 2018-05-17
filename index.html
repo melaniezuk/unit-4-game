@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Crystal Collector</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="asset/game.js"></script>
+       
+        <!-- Added a link to Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <!-- Added link to the jQuery Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    </head>
+    <style type="text/css">
+    </style>
+
+ 
+    <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript"> -->
+
+ <body>
+    
+    <!--bootstrap-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="header">
+          <h1>Crystal Collector</h1>
+          <p class="lead">You will be given a random number at the start of the game. There are four crystals below.
+          By clicking on a crystal, you will add a specific amount of points to your total score.
+          You win the game by matching your total score to the random number.
+          You lose the game if your total score goes above the random number.
+          The value of each crystal is hidden from you until you click on it.
+          Each time when the game starts, the game will change the values of each crystal.</p>
+        <br>
+        <p class="lead">Let's play!</p>
+        </div>
+    </div>
+           
+    
+	<!--<div class="numberToMatch">
+		<h2>Number To Get:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div> -->
+     
+        <div class="container">
+        <div class="row">
+            <div class="col-md-4"> 
+                <div class="card">
+                    Number to Get: 0
+                    <span id= "randomNumber"></span>
+                </div>
+            </div>
+            <div class="col-md-4"> 
+                    <div class="card">
+                        Wins: 0
+                        Losses: 0
+                    </div>
+                </div>
+                <div class="col-md-4"> 
+                        <div class="card">
+                            Total Score: 0
+                        </div>
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3"> <img src="assets/images2/green.jpg" style= "width:150px; height:150px" alt="Green Gem"></div>
+            <div class="col-md-3"> <img src="assets/images2/red.jpg" style= "width:150px; height:150px" alt="Red Gem"></div>
+            <div class="col-md-3"> <img src="assets/images2/yellow.jpg" style= "width:150px; height:150px" alt="Red Gem"></div>
+            <div class="col-md-3"> <img src="assets/images2/diamond.jpg" style= "width:150px; height:150px" alt="Diamond Gem"></div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <!--<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+
+
+
+</body>
+</html>
+    
